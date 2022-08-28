@@ -1,0 +1,16 @@
+北京丽芮酒店服务器向日葵：
+id: 831396210
+pw: 123456
+
+ip: 172.17.0.22
+各个linux网关的telnet：
+ip: 172.17.2.x(二层)
+ip: 172.17.3.x(三层)
+ip: 172.17.5.x(五层)
+id: root
+pw: q123456
+log文件位置/home/log.txt
+网关可运行tftp客户端，可以向服务器发送文件
+tftp -p -l /home/log.txt -r xxx.txt 172.17.0.22
+
+
