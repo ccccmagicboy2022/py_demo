@@ -2,6 +2,9 @@
 
 import dearpygui.dearpygui as dpg
 import dearpygui.demo as demo
+import ctypes
+
+ctypes.windll.shcore.SetProcessDpiAwareness(2)
 
 dpg.create_context()
 dpg.create_viewport(title='Custom Title', width=600, height=600)

@@ -1,5 +1,12 @@
-import dearpygui.dearpygui as dpg
+#!d:\cccc2020\TOOL\python-3.9.1-embed-amd64\python.exe
 
+import dearpygui.dearpygui as dpg
+import ctypes
+
+dll = ctypes.CDLL('shcore.dll')
+if dll:
+    dll.SetProcessDpiAwareness(2)
+    
 def save_callback():
     print("Save Clicked")
 
