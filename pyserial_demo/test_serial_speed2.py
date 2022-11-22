@@ -78,7 +78,7 @@ def async_process():
     asyncio.run(main_co())
 
 async def main_co():
-    task1 = asyncio.create_task(read_command0(0.0001))   # 3s
+    task1 = asyncio.create_task(read_command0(0.0001))   # unit: s
     task2 = asyncio.create_task(rev_command0(0.020))
 
     await task1
