@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --windowed --add-data "d:/test/python310/lib/site-packages/customtkinter;customtkinter/" calc.py
