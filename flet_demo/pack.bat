@@ -1,0 +1,1 @@
+flet pack flet_demo.py --name counter --icon icon.png --product-name counter --product-version "1.2.3" --copyright "Copyright (c) 2022 YourCompany Inc."
